@@ -361,6 +361,6 @@ $(document).ready(function(){
     }, 100);
 
     setInterval(function(){
-        player.movement(mouseX, mouseY, obstacles);
+        player.movement(mouseX, mouseY, Obstacles.obstacles);
     }, 0.1);
 });
